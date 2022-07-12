@@ -50,7 +50,7 @@ const About = () => {
         <div className="col-span-2 m-auto md:col-span-1 w-[75%] md:w-full flex justify-start md:pr-10 order-1 md:order-2">
           <div className="flex items-center h-auto m-auto shadow-xl shadow-gray-400 rounded-full p-2 hover:scale-105 duration-300">
             <Image
-              src="/../public/assets/profile.jpg"
+              src="/assets/profile.jpg"
               width="350"
               height="325"
               alt="icon"

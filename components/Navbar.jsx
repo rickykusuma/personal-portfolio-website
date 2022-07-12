@@ -10,7 +10,7 @@ import {
   AiOutlinePicture,
   AiOutlineLinkedin,
 } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import logo from "../public/assets/Logo.png";
 import { FiGithub } from "react-icons/fi";
 import { MdWorkOutline } from "react-icons/md";
 import { IoPersonOutline } from "react-icons/io5";
@@ -64,7 +64,7 @@ const Navbar = () => {
           <Link href="/#home">
             <Image
               className="cursor-pointer"
-              src="/../public/assets/Logo.png"
+              src="/assets/Logo.png"
               width="50px"
               height="50px"
               alt="logo"
@@ -91,13 +91,13 @@ const Navbar = () => {
       {/*end web Nav */}
 
       {/* start mobile nav*/}
-      <div className="flex z-[100] fixed md:hidden bottom-5 w-[95%] h-12 shadow-xl bg-[#ecf0f3] shadow-gray-400 rounded-xl ">
+      <div className="flex z-[100] fixed md:hidden bottom-5 w-[95%] h-15 shadow-xl bg-[#ecf0f3] shadow-gray-400 rounded-xl ">
         {/* start nav container */}
-        <div className="p-5 w-full flex  justify-between items-center">
+        <div className="p-5 w-full flex justify-between items-center">
           <Link href="/#home">
             <Image
               className="cursor-pointer"
-              src="/../public/assets/Logo.png"
+              src="/assets/Logo.png"
               width="50px"
               height="50px"
               alt="logo"
