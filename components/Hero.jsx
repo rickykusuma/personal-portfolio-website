@@ -29,6 +29,7 @@ const Hero = () => {
               href="https://drive.google.com/file/d/1BwdxNlsfh7rRILPLU_xN4fMpxMfQ-5bY/view?usp=sharing"
               download
               target="_blank"
+              rel="noreferrer"
             >
               <button className="p-5 rounded-full flex gap-3 font-bold hover:bg-gradient-to-r hover:from-[#709dff] hover:to-[#5651e5] hover:scale-105 ease-in duration-300">
                 <AiOutlineDownload size="25" className="font-extrabold" />

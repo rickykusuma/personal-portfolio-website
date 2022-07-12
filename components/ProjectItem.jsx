@@ -18,13 +18,23 @@ const ProjectItem = ({ data, classList, ...props }) => {
         <div className="flex justify-between items-center gap-3">
           <button className="p-2 rounded-full font-bold hover:bg-gradient-to-r hover:from-[#709dff] hover:to-[#5651e5] hover:scale-105 ease-in duration-300">
             {/* <AiOutlineDownload size="25" className="font-extrabold" /> */}
-            <a href={code} className="w-16 p-3" target="_blank">
+            <a
+              href={code}
+              className="w-16 p-3"
+              target="_blank"
+              rel="noreferrer"
+            >
               Code
             </a>
           </button>
           <button className="p-2 rounded-full font-bold hover:bg-gradient-to-r hover:from-[#709dff] hover:to-[#5651e5] hover:scale-105 ease-in duration-300">
             {/* <AiOutlineDownload size="25" className="font-extrabold" /> */}
-            <a href={demo} className="w-16 p-3" target="_blank">
+            <a
+              href={demo}
+              className="w-16 p-3"
+              target="_blank"
+              rel="noreferrer"
+            >
               Demo
             </a>
           </button>

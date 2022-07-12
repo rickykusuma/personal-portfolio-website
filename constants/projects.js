@@ -4,7 +4,7 @@ export default [
     img: "/../public/assets/personal_web.png",
     techStack: "NextJs, ReactJs, Tailwind",
     desc: "A Personal portfolio website with responsive design.",
-    code: "/",
+    code: "https://github.com/rickykusuma/personal-portfolio-website",
     demo: "/",
   },
 ];

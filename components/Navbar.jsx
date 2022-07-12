@@ -164,6 +164,7 @@ const Navbar = () => {
             <a
               href="https://www.linkedin.com/in/ricky-andrianto/"
               target="_blank"
+              rel="noreferrer"
             >
               <li
                 onClick={() => {
@@ -175,7 +176,11 @@ const Navbar = () => {
                 LinkedIn
               </li>
             </a>
-            <a href="https://github.com/rickykusuma" target="_blank">
+            <a
+              href="https://github.com/rickykusuma"
+              target="_blank"
+              rel="noreferrer"
+            >
               <li
                 onClick={() => {
                   setNav(false);
@@ -186,7 +191,11 @@ const Navbar = () => {
                 Github
               </li>
             </a>
-            <a href="mailto:ricky.ad58@gmail.com" target="_blank">
+            <a
+              href="mailto:ricky.ad58@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <li
                 onClick={() => {
                   setNav(false);

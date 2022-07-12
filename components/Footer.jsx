@@ -27,17 +27,26 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/ricky-andrianto/"
               target="_blank"
+              rel="noreferrer"
             >
               <FaLinkedinIn />
             </a>
           </div>
           <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#ecf0f3]">
-            <a href="https://github.com/rickykusuma" target="_blank">
+            <a
+              href="https://github.com/rickykusuma"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub />
             </a>
           </div>
           <div className="rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-in duration-300 bg-[#ecf0f3]">
-            <a href="mailto:ricky.ad58@gmail.com" target="_blank">
+            <a
+              href="mailto:ricky.ad58@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiOutlineMail />
             </a>
           </div>
