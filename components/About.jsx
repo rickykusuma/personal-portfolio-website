@@ -19,8 +19,8 @@ const About = () => {
         </div>
         <div className="col-span-2 md:col-span-1 flex flex-col justify-center items-center md:pl-10 order-2 md:order-1">
           <p className="py-2 text-gray-600 text-lg md:text-xl tracking-widest text-center">
-            Hi, my name is Ricky Andrianto Kusuma. I'm a front-end developer and
-            mobile developer. Graduated from Multimedia Nusantara University
+            Hi, my name is Ricky Andrianto Kusuma. {`I'm`} a front-end developer
+            and mobile developer. Graduated from Multimedia Nusantara University
             with a GPA of 3.39. Seeking a position where I can develop my
             skills. My vision is that I will be able to provide better solutions
             in a timely manner.
@@ -47,7 +47,7 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div class="col-span-2 m-auto md:col-span-1 w-[75%] md:w-full flex justify-start md:pr-10 order-1 md:order-2">
+        <div className="col-span-2 m-auto md:col-span-1 w-[75%] md:w-full flex justify-start md:pr-10 order-1 md:order-2">
           <div className="flex items-center h-auto m-auto shadow-xl shadow-gray-400 rounded-full p-2 hover:scale-105 duration-300">
             <Image
               src="/../public/assets/profile.jpg"

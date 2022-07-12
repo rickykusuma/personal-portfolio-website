@@ -21,7 +21,8 @@ const Hero = () => {
       <div className="max-w-[1240px] w-full h-full grid grid-cols-1 md:grid-cols-2 mx-auto p-2  justify-center items-center">
         <div className="order-2 md:order-1 md:pl-5">
           <h2 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]">Ricky Andrianto K</span>
+            Hi, {`I'm `}
+            <span className="text-[#5651e5]">Ricky Andrianto K</span>
           </h2>
           <h2 className="py-2 text-gray-700 blinking-cursor">{typedString}</h2>
           <div className="flex justify-center items-center pt-8">

@@ -67,6 +67,7 @@ const Navbar = () => {
               src="/../public/assets/Logo.png"
               width="50px"
               height="50px"
+              alt="logo"
             />
           </Link>
           <div>
@@ -99,6 +100,7 @@ const Navbar = () => {
               src="/../public/assets/Logo.png"
               width="50px"
               height="50px"
+              alt="logo"
             />
           </Link>
           <AiOutlineAppstore

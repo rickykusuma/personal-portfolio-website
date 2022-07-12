@@ -12,7 +12,7 @@ const ExperienceItem = ({ ...props }) => {
             <span className="text-sm text-gray-500">
               {location} - {company}
             </span>
-            <div className="flex items-center gap-2 justify-end">
+            <div className="flex items-center md:gap-2 justify-end">
               <AiOutlineCalendar className="text-xl" />
               {startDate} - {endDate}
             </div>
