@@ -5,6 +5,6 @@ export default [
     techStack: "NextJs, ReactJs, Tailwind",
     desc: "A Personal portfolio website with responsive design.",
     code: "https://github.com/rickykusuma/personal-portfolio-website",
-    demo: "/",
+    demo: "https://rickykusuma.vercel.app/",
   },
 ];
